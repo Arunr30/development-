@@ -30,3 +30,8 @@ const arr = [1, 2, 3, 4, 54]
 console.log(typeof arr)
 
 // task 5
+
+let val = 30
+console.log(val)
+val = 40
+console.log(val)
