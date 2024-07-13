@@ -24,10 +24,10 @@ const person = new Object()
 person.name = 'Arun'
 person.age = 21
 person.country = 'india'
-console.log(typeOf(person))
+console.log(typeof person)
 
 const arr = [1, 2, 3, 4, 54]
-console.log(typeof arr)
+console.log(Array.isArray(arr))
 
 // task 5
 
@@ -35,3 +35,7 @@ let val = 30
 console.log(val)
 val = 40
 console.log(val)
+
+const myVal = 40
+// myVal = 30 TypeError: Assignment to constant variable
+console.log(myVal)
