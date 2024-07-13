@@ -1,3 +1,6 @@
+day 1:
+
+
 what is let?
 
 let is keyword we can re assign later, unlike var. let is a block scoped does not hoist the variable on top.
@@ -8,3 +11,5 @@ var is functionn scoped sometimes it will be hoisted so it cause some errors.
 what is const ?
 
 const is a keyword we cant re assign later but objects in const can be re assign.
+
+typeof --> check the type of value
