@@ -43,3 +43,12 @@ console.log(c1 == c2)
 let f1 = 10
 let f2 = '10'
 console.log(c1 === c2)
+
+let num1 = 10
+let num2 = 20
+
+console.log(num1 > 5 && num2 < 30)
+console.log(num1 > 40 || num2 < 60)
+console.log(num1 != num2)
+
+let
