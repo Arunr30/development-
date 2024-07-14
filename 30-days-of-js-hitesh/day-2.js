@@ -51,4 +51,6 @@ console.log(num1 > 5 && num2 < 30)
 console.log(num1 > 40 || num2 < 60)
 console.log(num1 != num2)
 
-let
+let age = 17
+let votable = age < 18 ? 'too young' : 'can vote'
+console.log(votable)
