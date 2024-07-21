@@ -119,4 +119,4 @@
 
 ;(function () {
     console.log('hi')
-})()
+})() // --> this is called IIFE => Imediately invoked function expression.
