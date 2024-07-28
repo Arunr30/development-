@@ -6,7 +6,7 @@
         <title>Color Flipper</title>
 
         <style>
-            #Green {
+            /* #Green {
                 background-color: green;
             }
             #Red {
@@ -25,15 +25,61 @@
                 height: 40px;
                 margin: 5px;
                 cursor: pointer;
+            } */
+            .border {
+                border-bottom: 2px solid;
+            }
+            .topnav {
+                float: right;
+                text-align: center;
+                padding: 14px 16px;
+                list-style: none;
+                font-size: 17px;
+                padding-right: 20px;
+                font-family: Georgia, 'Times New Roman', Times, serif;
+            }
+            .topnav a {
+                text-decoration: none;
+                color: black;
+                padding: 14px 16px;
+            }
+            .topnav a:hover {
+                color: orangered;
+                border: 2px solid;
+            }
+            .image {
+                margin-top: 5px;
+                width: 100px;
+                height: 100px;
+                display: flex;
+            }
+            .button {
+                display: flex;
+                justify-content: center;
             }
         </style>
     </head>
     <body>
-        <h1>Color Flipper</h1>
-        <button id="Green" onclick="setColor('green')">Green</button>
-        <button id="Red" onclick="setColor('Red')">Red</button>
-        <button id="Blue" onclick="setColor('Blue')">Blue</button>
-        <button id="Random" onclick="randomColor()">Random</button>
+        <div class="border">
+            <div class="topnav">
+                <a class="active" href="#home">Home</a>
+                <a href="#news">Project</a>
+                <a href="#contact">Contact</a>
+                <a href="#about">About</a>
+            </div>
+            <div class="logo">
+                <h1>⚡</h1>
+            </div>
+        </div>
+        <div>
+            <img
+                src="./public/IMG_20221129_151433.jpg "
+                alt="user-profile-picture"
+                width="50px"
+                class="image"
+            />
+            <button class="button">Follow</button>
+        </div>
     </body>
     <script src="./index.js"></script>
 </html>
